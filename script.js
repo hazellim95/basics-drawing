@@ -7,12 +7,12 @@ var main = function (input) {
   // assign input to the value of length variable
   length = input;
 
-  // Create loop to output square wih thumbs-up emoji
+  // Create loop to output triangle wih thumbs-up emoji
   var height = 0;
   while (height < length) {
     var width = 0;
     // inner loop to print out "length" number of emojis in each line
-    while (width < length) {
+    while (width < height + 1) {
       myOutputValue += "👍";
       width += 1;
     }
